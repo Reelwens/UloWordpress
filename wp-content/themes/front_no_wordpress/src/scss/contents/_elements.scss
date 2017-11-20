@@ -1,0 +1,154 @@
+// MENU
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+
+    @media screen and (max-width: $phone) {
+        display: inline-block;
+    }
+
+    .menuItem {
+        margin: 0 15px;
+        padding-top: 35px;
+        padding-bottom: 8px;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 0.025em;
+        border-bottom: 3px solid rgba($blue, 0);
+        transform: translateY(-5px);
+        transition: all .5s ease-out;
+
+        &.active {
+            border-bottom: 3px solid $blue;
+        }
+
+        a {
+            padding-top: 35px;
+            padding-bottom: 8px;
+        }
+
+        &:hover {
+            border-bottom: 3px solid $blue;
+            transform: translateY(0);
+        }
+    }
+}
+
+// TITLE
+
+.title {
+    margin-top: 90px;
+    text-align: center;
+
+    h2 {
+        text-transform: uppercase;
+        color: $black;
+        font-size: 36px;
+        font-weight: 600;
+        letter-spacing: 0.025em;
+    }
+
+    .line {
+        width: 30px;
+        height: 3px;
+        background-color: $blue;
+        margin: 25px auto;
+    }
+}
+
+
+// BLUE BACKGROUND & FLOAT ELEMENT
+
+.background {
+    position: absolute;
+
+    .bkgTop {
+        height: 30vw;
+        width: 100vw;
+        background-color: $blue;
+    }
+
+    img {
+        width: 100vw;
+    }
+}
+
+.floatGroup {
+    position: relative;
+    background-color: white;
+    top: 50px;
+    box-shadow: 0px 6px 36px -14px rgba(0,0,0,0.4);
+}
+
+
+// FOOTER
+
+footer {
+    background-color: #171717;
+    color: white;
+
+    .mainFooter {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 30px;
+
+        h2 {
+            color: white;
+            font-size: 26px;
+        }
+
+        .contactBlocks {
+            display: flex;
+            justify-content: space-between;
+            width: 35vw;
+
+            .contactBlock {
+                img {
+                    width: 70px;
+                    height: 70px;
+                    object-fit: contain;
+                    border: 3px solid $blue;
+                    border-radius: 1000px;
+                    padding: 5px;
+                }
+
+                p {
+                    font-size: 14px;
+                    line-height: 21px;
+                    margin: 20px 0;
+                }
+            }
+        }
+
+        .mailAnswer {
+            font-size: 14px;
+            line-height: 21px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        input {
+            background-color: white;
+            width: 15vw;
+            display: inline-block;
+            padding: 5px 10px;
+            height: 30px;
+        }
+
+        .button {
+            background-color: $blue;
+            display: inline-block;
+            padding: 7px 0;
+            text-align: center;
+
+            a {
+                padding: 7px 35px;
+            }
+        }
+    }
+
+    div.map {
+        padding-bottom: 20px;
+    }
+}
