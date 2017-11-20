@@ -55,7 +55,7 @@
 
         </div>
 
-        <img src="/img/down-arrow.svg" alt="Descendre" class="downArrow">
+        <img src="../img/down-arrow.svg" alt="Descendre" class="downArrow">
     </div>
 
     <div class="presentation">
@@ -70,15 +70,15 @@
         </div>
 
         <div class="picturesPresentation">
-            <img src="/img/ULO-image4.jpg" alt="Présentation Ulo">
-            <img src="/img/ULO-image9.jpg" alt="Présentation Ulo 2">
+            <img src="img/ULO-image4.jpg" alt="Présentation Ulo">
+            <img src="img/ULO-image9.jpg" alt="Présentation Ulo 2">
         </div>
     </div>
 
     <div class="features">
         <div class="background">
             <div class="bkgTop"></div>
-            <img src="/img/bkgArrow.svg" alt="background">
+            <img src="img/bkgArrow.svg" alt="background">
         </div>
 
         <div class="floatGroup container">
@@ -89,19 +89,19 @@
 
             <div class="featuresPresentation">
                 <div class="feature">
-                    <img src="/img/noun_192274_cc.svg" alt="Camera">
+                    <img src="img/noun_192274_cc.svg" alt="Camera">
                     <h3>Surveillance</h3>
                     <p class="hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci laudantium quia necessitatibus aliquam repellat pariatur reiciendis. Tenetur laborum dolor obcaecati tempora. Cupiditate ducimus consequatur excepturi quo cum rerum aliquam earum</p>
                 </div>
 
                 <div class="feature">
-                    <img src="/img/noun_1129813_cc.svg" alt="Camera">
+                    <img src="img/noun_1129813_cc.svg" alt="Camera">
                     <h3>Sécurité</h3>
                     <p class="hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci laudantium quia necessitatibus aliquam repellat pariatur reiciendis. Tenetur laborum dolor obcaecati tempora. Cupiditate ducimus consequatur excepturi quo cum rerum aliquam earum</p>
                 </div>
 
                 <div class="feature">
-                    <img src="/img/noun_41030_cc.svg" alt="Camera">
+                    <img src="img/noun_41030_cc.svg" alt="Camera">
                     <h3>Domotique</h3>
                     <p class="hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci laudantium quia necessitatibus aliquam repellat pariatur reiciendis. Tenetur laborum dolor obcaecati tempora. Cupiditate ducimus consequatur excepturi quo cum rerum aliquam earum</p>
                 </div>
@@ -127,11 +127,11 @@
 
                     <div class="contactBlocks">
                         <div class="contactBlock">
-                            <img src="/img/noun_1146595_cc.svg" alt="Localisation">
+                            <img src="img/noun_1146595_cc.svg" alt="Localisation">
                             <p>9 AVENUE DES HAUTS-FOURNEAUX<br />4362 ESCH-SUR-ALZETTE<br />LUXEMBOURG</p>
                         </div>
                         <div class="contactBlock">
-                            <img src="/img/noun_939012_cc.svg" alt="Mail">
+                            <img src="img/noun_939012_cc.svg" alt="Mail">
                             <p>INFO@MU-DESIGN.LU</p>
                         </div>
                     </div>
