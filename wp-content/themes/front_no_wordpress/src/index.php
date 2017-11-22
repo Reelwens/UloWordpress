@@ -55,7 +55,7 @@
 
         </div>
 
-        <img src="../img/down-arrow.svg" alt="Descendre" class="downArrow">
+        <img src="img/down-arrow.svg" alt="Descendre" class="downArrow">
     </div>
 
     <div class="presentation">
