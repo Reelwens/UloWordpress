@@ -1,0 +1,132 @@
+body#testimony {
+    .landing {
+        background-image: url(../img/ULO-image5.png);
+
+        h1 {
+            position: absolute;
+            font-size: 48px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            top: 45%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+
+            @media screen and (max-width: $phone) {
+                top: 65%;
+            }
+        }
+    }
+
+    .testimony {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+
+        .bull {
+            background-color: white;
+            box-shadow: 0px 6px 36px -14px rgba(0,0,0,0.4);
+            margin: 15px 15px 35px 15px;
+            position: relative;
+            padding: 25px;
+            width: 45%;
+            border-radius: 5px;
+
+            @media screen and (max-width: $phone) {
+                width: 90%;
+            }
+
+            p.phrase {
+                font-size: 16px;
+                line-height: 24px;
+                margin-bottom: 50px;
+            }
+
+            div.bio {
+                position: absolute;
+                bottom: 0;
+                transform: translateY(-45%);
+
+                p.name {
+                    font-weight: 600;
+                    margin-left: 100px;
+                }
+
+                p.function {
+                    color: grey;
+                    margin-left: 100px;
+                }
+            }
+
+            img {
+                position: absolute;
+                width: 70px;
+                border-radius: 1000px;
+                bottom: 0;
+                transform: translateY(25%);
+            }
+        }
+    }
+
+    .contact {
+        padding: 0 15%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+        .boxContact {
+            background-color: $blue;
+            color: white;
+            padding: 10px 30px 30px 30px;
+            display: flex;
+        }
+
+        .leftForm, .rightForm {
+            width: 50%;
+            margin: 0 10px;
+
+            p {
+                font-weight: 600;
+                text-transform: uppercase;
+                margin: 20px 0 10px 0;
+            }
+
+            input {
+                border: 2px solid white;
+                height: 35px;
+                width: 100%;
+                padding: 0 15px;
+            }
+
+            textarea {
+                border: 2px solid white;
+                width: 100%;
+                height: calc(100% - 46px);
+                padding: 10px 15px;
+            }
+        }
+
+        .bottomForm {
+            background-color: $blue;
+            padding-bottom: 25px;
+            text-align: right;
+
+            input {
+                background-color: white;
+                color: $black;
+                padding: 0 30px;
+                height: 50px;
+                font-weight: 600;
+                letter-spacing: 0.05em;
+                font-size: 16px;
+                text-transform: uppercase;
+                margin-right: 40px;
+                transition: all .3s ease-in-out;
+
+                &:hover {
+                    background-color: #c2dddb;
+                }
+            }
+        }
+    }
+}

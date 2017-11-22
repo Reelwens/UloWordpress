@@ -40,13 +40,13 @@
                     <a href="features.php">Fonctionnalités</a>
                 </div>
                 <div class="menuItem">
-                    <a href="#">Presse</a>
+                    <a href="press.php">Presse</a>
                 </div>
                 <div class="menuItem">
-                    <a href="#">Témoignages</a>
+                    <a href="testimony.php">Témoignages</a>
                 </div>
                 <div class="menuItem">
-                    <a href="#">Contact</a>
+                    <a href="testimony.php#contact">Contact</a>
                 </div>
             </div>
 
