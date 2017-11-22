@@ -1,0 +1,56 @@
+body#features {
+    .landing {
+        background-image: url(../img/ULO-image6.png);
+
+        h1 {
+            position: absolute;
+            font-size: 48px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            top: 45%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+        }
+    }
+
+    .features {
+        margin-bottom: 100px;
+    }
+
+    .floatGroup {
+        padding: 0 140px;
+
+        .heading {
+            display: flex;
+            padding-top: 40px;
+            margin-bottom: 20px;
+            line-height: 60px;
+
+            img {
+                width: 60px;
+                height: 60px;
+                object-fit: contain;
+            }
+
+            p {
+                font-size: 30px;
+                text-transform: uppercase;
+                font-weight: 700;
+                color: $blue;
+                letter-spacing: 0.025em;
+                margin-left: 50px;
+            }
+        }
+
+        > p {
+            line-height: 24px;
+            font-size: 16px;
+            padding-bottom: 40px;
+
+            &.bottomBorder {
+                border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+            }
+        }
+    }
+}

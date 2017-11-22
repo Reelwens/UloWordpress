@@ -35,6 +35,17 @@
     }
 }
 
+
+// LANDING
+
+.landing {
+    width: 100vw;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
 // TITLE
 
 .title {
@@ -64,7 +75,7 @@
     position: absolute;
 
     .bkgTop {
-        height: 30vw;
+        height: 15vw;
         width: 100vw;
         background-color: $blue;
     }
