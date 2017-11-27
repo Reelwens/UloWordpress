@@ -32,23 +32,23 @@
     <div class="landing">
         <div class="container">
 
-            <div class="menu">
-                <div class="menuItem">
+            <ul class="menu">
+                <li class="menuItem">
                     <a href="index.php">Accueil</a>
-                </div>
-                <div class="menuItem">
+                </li>
+                <li class="menuItem">
                     <a href="features.php">Fonctionnalités</a>
-                </div>
-                <div class="menuItem">
+                </li>
+                <li class="menuItem">
                     <a href="press.php">Presse</a>
-                </div>
-                <div class="menuItem">
+                </li>
+                <li class="menuItem">
                     <a href="testimony.php">Témoignages</a>
-                </div>
-                <div class="menuItem">
+                </li>
+                <li class="menuItem">
                     <a href="testimony.php#contact">Contact</a>
-                </div>
-            </div>
+                </li>
+            </ul>
 
             <h1>Fonctionnalités</h1>
 

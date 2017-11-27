@@ -32,23 +32,23 @@
     <div class="landing">
         <div class="container">
 
-            <div class="menu">
-                <div class="menuItem active">
+            <ul class="menu">
+                <li class="menuItem active">
                     <a href="index.php">Accueil</a>
-                </div>
-                <div class="menuItem">
+                </li>
+                <li class="menuItem">
                     <a href="features.php">Fonctionnalités</a>
-                </div>
-                <div class="menuItem">
+                </li>
+                <li class="menuItem">
                     <a href="press.php">Presse</a>
-                </div>
-                <div class="menuItem">
+                </li>
+                <li class="menuItem">
                     <a href="testimony.php">Témoignages</a>
-                </div>
-                <div class="menuItem">
+                </li>
+                <li class="menuItem">
                     <a href="testimony.php#contact">Contact</a>
-                </div>
-            </div>
+                </li>
+            </ul>
 
             <h1>ULO, une chouette caméra de surveillance</h1>
             <div class="head-button"><a href="#">En savoir plus</a></div>
