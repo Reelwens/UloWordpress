@@ -83,6 +83,24 @@
                 });
             </script>
 
+            <?php
+
+            $email="lawlesque@gmail.com";
+            $subject="testing";
+            $message = "hi this is test";
+            $headers = 'From:' . "testing@gmail.com";
+
+            if(wp_mail($email, $subject, $message, $headers))
+            {
+                echo "sending mail test";
+            }
+            else
+            {
+                echo "not";
+            }
+
+            ?>
+
             <p class="mailAnswer">Entrez votre adresse e-mail pour<br />recevoir nos dernières actualités.</p>
 
             <input type="text" class="mailInput" id="inputMailFooter" placeholder="Adresse mail">
