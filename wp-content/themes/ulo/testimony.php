@@ -34,6 +34,7 @@
             $the_query->the_post();
             echo '<div class="bull">';
             echo '<p class="phrase">'. get_the_content() .'</p>';
+
     $image = get_field('image');
 
     if( !empty($image) ): ?>

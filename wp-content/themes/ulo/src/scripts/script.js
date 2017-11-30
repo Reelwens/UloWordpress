@@ -13,3 +13,8 @@ if (document.querySelector('#home')) {
 }  else if(document.querySelector('#press')) {
     link3.classList.add('active');
 }
+
+//Email
+
+var mailInput = document.getElementById('inputMailFooter');
+

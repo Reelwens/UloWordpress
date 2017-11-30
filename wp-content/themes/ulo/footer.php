@@ -59,10 +59,34 @@
                 <div class="line"></div>
             </div>
 
+
+            <script>
+
+                jQuery(document).ready(function($) {
+                    jQuery('#sendMail').click(function (e) {
+
+                        e.preventDefault();
+                        var email = jQuery('#inputMailFooter').val();
+                        console.log(email);
+                        jQuery.ajax({
+                            url: '<?php echo admin_url('admin-ajax.php'); ?>',
+                            type: "POST",
+                            cache: false,
+                            data: {
+                                action: 'send_email',
+                                name: 'turpinpro.at@gmail.com',
+                                email: email,
+                                message: 'hello'
+                            }
+                        });
+                    });
+                });
+            </script>
+
             <p class="mailAnswer">Entrez votre adresse e-mail pour<br />recevoir nos dernières actualités.</p>
 
-            <input type="text" class="mailInput" placeholder="Adresse mail">
-            <div class="button"><a href="#">Je m'inscris</a></div>
+            <input type="text" class="mailInput" id="inputMailFooter" placeholder="Adresse mail">
+            <div class="button"><a id="sendMail" href="#">Je m'inscris</a></div>
         </div>
 
     </div>
