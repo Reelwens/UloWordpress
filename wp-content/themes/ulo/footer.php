@@ -59,47 +59,37 @@
                 <div class="line"></div>
             </div>
 
-
-            <script>
-
-                jQuery(document).ready(function($) {
-                    jQuery('#sendMail').click(function (e) {
-
-                        e.preventDefault();
-                        var email = jQuery('#inputMailFooter').val();
-                        console.log(email);
-                        jQuery.ajax({
-                            url: '<?php echo admin_url('admin-ajax.php'); ?>',
-                            type: "POST",
-                            cache: false,
-                            data: {
-                                action: 'send_email',
-                                name: 'turpinpro.at@gmail.com',
-                                email: email,
-                                message: 'hello'
-                            }
-                        });
-                    });
-                });
-            </script>
-
             <?php
+/*
+ * Le but était de récuperer la valeur et du champ, et d'envoyer un email de confirmation. Cependant le mail ne partait pas.
+ * Le plugin WP Mail SMTP a été testé afin de voir si le problème ne venait pas du serveur local. Pas de résultat concluant et manque de temps.
+ *
+ *
+            add_action( 'wp_ajax_sendmail', 'post_function' );
+            add_action( 'wp_ajax_nopriv_sendmail', 'post_function' );
+            function post_function() {
 
-            $email="lawlesque@gmail.com";
-            $subject="testing";
-            $message = "hi this is test";
-            $headers = 'From:' . "testing@gmail.com";
+                global $wpdb, $_POST;
 
-            if(wp_mail($email, $subject, $message, $headers))
-            {
-                echo "sending mail test";
+                $email = $_POST['email'];
+                $subject = "Newsletter Ulo";
+                $message = $_POST['message'];
+                $headers = 'De:' . "Ulo@gmail.com";
+
+                if(wp_mail($email, $subject, $message, $headers))
+                {
+                    echo "sending mail test";
+                }
+                else
+                {
+                    echo "not";
+                }
+
             }
-            else
-            {
-                echo "not";
-            }
 
-            ?>
+
+
+            */?>
 
             <p class="mailAnswer">Entrez votre adresse e-mail pour<br />recevoir nos dernières actualités.</p>
 

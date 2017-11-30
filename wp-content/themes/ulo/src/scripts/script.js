@@ -16,5 +16,23 @@ if (document.querySelector('#home')) {
 
 //Email
 
-var mailInput = document.getElementById('inputMailFooter');
+/*var mailInput = document.getElementById('inputMailFooter');*/
 
+/*
+jQuery(document).ready(function($) {
+
+    $('#sendMail').click(function (e) {
+
+        e.preventDefault();
+        var email = $('#inputMailFooter').val();
+        console.log(email);
+        jQuery.ajax(
+            ajaxurl,
+            {
+                action: 'sendmail',
+                email: email,
+                message: "Bienvenue dans le monde D'Ulo",
+            }
+        );
+    });
+});*/
